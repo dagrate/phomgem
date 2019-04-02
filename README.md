@@ -4,8 +4,8 @@ Persistent Homology for Generative Models
 <p align="middle">
   <img src="https://github.com/dagrate/phomgem/blob/master/images/persDiag_originSamples.png" width="400"/>
   <img src="https://github.com/dagrate/phomgem/blob/master/images/persDiag_GPWGAN.png" width="400"/>
-  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="300"/>
-  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_GPWGAN.png" width="300"/>
+  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="400"/>
+  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_GPWGAN.png" width="400"/>
 </p>
 
 phomgem is a Python and R library that proposes to evaluate the quality of the generated adversarial samples using persistent homology. For some real-world applications, different than computer vision, we cannot assess visually the quality of the generated adversarial samples. Therefore, we have to use other metrics. Here, we rely on persistent homology because it is capable to acknowledge the shape of the data points, by opposition to traditional distance measures such the Euclidean distance.
