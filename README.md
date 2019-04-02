@@ -9,9 +9,7 @@ The persistent homology features and the bottleneck distance are evaluated with 
 
 <p float="left">
   <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="300"/>
-  <figcaption>Persistent Diagram</figcaption>
   <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="300"/>
-  <figcaption>Barcodes</figcaption>
 </p>
 
 <figure>
