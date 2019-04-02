@@ -12,14 +12,6 @@ The persistent homology features and the bottleneck distance are evaluated with 
   <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="300"/>
 </p>
 
-<figure>
-  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="400"/>
-  <figcaption>Persistent Diagram</figcaption>
-  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="400"/>
-  <figcaption>Barcodes</figcaption>
-</figure>
-
-
 ----------------------------
 
 ## Dependencies
