@@ -8,12 +8,10 @@ The generative models are trained with Python to produce adversarial samples sav
 The persistent homology features and the bottleneck distance are evaluated with the TDA package of R. 
 
 <p float="left">
-  <figure>
-  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="400"/>
+  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="300"/>
   <figcaption>Persistent Diagram</figcaption>
-  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="400"/>
+  <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="300"/>
   <figcaption>Barcodes</figcaption>
-</figure>
 </p>
 
 <figure>
