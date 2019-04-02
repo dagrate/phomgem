@@ -2,8 +2,8 @@
 Persistent Homology for Generative Models
 
 <p align="middle">
-  <img src="https://github.com/dagrate/phomgem/blob/master/images/persDiag_originSamples.png" width="300"/>
-  <img src="https://github.com/dagrate/phomgem/blob/master/images/persDiag_GPWGAN.png" width="300"/>
+  <img src="https://github.com/dagrate/phomgem/blob/master/images/persDiag_originSamples.png" width="400"/>
+  <img src="https://github.com/dagrate/phomgem/blob/master/images/persDiag_GPWGAN.png" width="400"/>
   <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="300"/>
   <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_GPWGAN.png" width="300"/>
 </p>
