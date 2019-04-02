@@ -1,18 +1,19 @@
 # phomgem
 Persistent Homology for Generative Models
 
-phomgem is a Python and R library that proposes to evaluate the quality of the generated adversarial samples using persistent homology. For some real-world applications, different than computer vision, we cannot assess visually the quality of the generated adversarial samples. Therefore, we have to use other metrics. Here, we rely on persistent homology because it is capable to acknowledge the shape of the data points, by opposition to traditional distance measures such the Euclidean distance.
-
-The generative models are trained with Python to produce adversarial samples savec in csv files.
-
-The persistent homology features and the bottleneck distance are evaluated with the TDA package of R. 
-
 <p align="middle">
   <img src="https://github.com/dagrate/phomgem/blob/master/images/persDiag_originSamples.png" width="300"/>
   <img src="https://github.com/dagrate/phomgem/blob/master/images/persDiag_GPWGAN.png" width="300"/>
   <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_originSamples.png" width="300"/>
   <img src="https://github.com/dagrate/phomgem/blob/master/images/barcodes_GPWGAN.png" width="300"/>
 </p>
+
+phomgem is a Python and R library that proposes to evaluate the quality of the generated adversarial samples using persistent homology. For some real-world applications, different than computer vision, we cannot assess visually the quality of the generated adversarial samples. Therefore, we have to use other metrics. Here, we rely on persistent homology because it is capable to acknowledge the shape of the data points, by opposition to traditional distance measures such the Euclidean distance.
+
+The generative models are trained with Python to produce adversarial samples savec in csv files.
+
+The persistent homology features and the bottleneck distance are evaluated with the TDA package of R. 
+
 
 ----------------------------
 
