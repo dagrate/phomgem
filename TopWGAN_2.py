@@ -64,7 +64,7 @@ import tensorflow as tf
 # add missing __iter__ method, so pandas accepts body as file-like object
 #if not hasattr(body, "__iter__"): body.__iter__ = types.MethodType( __iter__, body )
 #
-df = pd.read_csv("/home/jeremy/Documents/SnT/Data/credit_card_fraud/creditcard.csv")
+df = pd.read_csv("creditcard.csv")
 #df = pd.read_csv(body)
 df.head()
 
@@ -405,9 +405,9 @@ if False:
     
     
     # results save
-    #writetocsv(X_train, "/home/jeremy/Documents/SnT/aa_code/app_topwgan/WGAN_original.csv")
+    #writetocsv(X_train, "WGAN_original.csv")
     #generated = generate_samples(generatorwgan, noise_dim)
-    #writetocsv(generated, "/home/jeremy/Documents/SnT/aa_code/app_topwgan/WGAN_generated.csv")
+    #writetocsv(generated, "WGAN_generated.csv")
     
 
 # ## GRADIENT PENALTY CALIBRATION FOR WGAN WITH GRADIENT PENALTY
@@ -548,7 +548,7 @@ if (CALIB_GRAD_PEN == True):
 # add missing __iter__ method, so pandas accepts body as file-like object
 #if not hasattr(body, "__iter__"): body.__iter__ = types.MethodType( __iter__, body )
 #
-gp = pd.read_csv("/home/jeremy/Documents/SnT/aa_code/app_topwgan/gradpenalty_2.csv", delimiter=";")
+gp = pd.read_csv("gradpenalty_2.csv", delimiter=";")
 #gp = pd.read_csv(body, delimiter=";")
 print(gp.head())
 
@@ -715,10 +715,10 @@ gensamples = generate_images2D(generatorgpwgan, noise_dim)
 
 
 # results save
-#writetocsv(X_train, "/home/jeremy/Documents/SnT/aa_code/app_topwgan/GPWGAN_original.csv")
+#writetocsv(X_train, "GPWGAN_original.csv")
 #generated = generate_samples(generatorgpwgan, noise_dim)
 #print(calcrmse(X_train, generated))
-#writetocsv(generated, "/home/jeremy/Documents/SnT/aa_code/app_topwgan/GPWGAN_generated.csv")
+#writetocsv(generated, "GPWGAN_generated.csv")
 
 STOP
 
@@ -1123,9 +1123,9 @@ error_df = pd.DataFrame({'reconstruction_error': mse,'true_class': y_test[:X_tes
 gensamples = generate_images2D(wae_generator, 29)
 
 # results save
-#writetocsv(X_train, "/home/jeremy/Documents/SnT/aa_code/app_topwgan/WAE_original.csv")
+#writetocsv(X_train, "WAE_original.csv")
 #generated = generate_samples(wae_generator, 29)
-#writetocsv(generated, "/home/jeremy/Documents/SnT/aa_code/app_topwgan/WAE_generated.csv")
+#writetocsv(generated, "WAE_generated.csv")
 
 
 # ## VAE
@@ -1231,7 +1231,6 @@ error_df = pd.DataFrame({'reconstruction_error': mse,'true_class': y_test[:X_tes
 gensamples = generate_images2D(vae_generator, 29)
 
 # results save
-#writetocsv(X_train_vae, "/home/jeremy/Documents/SnT/aa_code/app_topwgan/VAE_original.csv")
+#writetocsv(X_train_vae, "VAE_original.csv")
 #generated = generate_samples(vae_generator, noise_dim)
-#writetocsv(generated, "/home/jeremy/Documents/SnT/aa_code/app_topwgan/VAE_generated.csv")
-
+#writetocsv(generated, "VAE_generated.csv")
