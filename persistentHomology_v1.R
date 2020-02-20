@@ -25,14 +25,14 @@ if (BOTTLENECKDIST == 1) {
   N <- maxBatch / batch
   IDICT <- 1
   flnm <- dict[IDICT]
-  xfraudsA <- read.table( paste("/home/jeremy/Documents/SnT/aa_code/app_topwgan/", flnm, sep="") , sep=',')
+  xfraudsA <- read.table( paste("", flnm, sep="") , sep=',')
   lastcolumn <- dim(xfraudsA)[2]# - 1
   
   totBottleneck <- matrix(data=0, nrow=nSim, ncol=4) #c(0, 0, 0, 0)
   for (iSim in seq(1, nSim)) {
     for (idict in seq(1, 4)) {
       flnm <- dict[idict + 1]
-      xfraudsB <- read.table( paste("/home/jeremy/Documents/SnT/aa_code/app_topwgan/", flnm, sep="") , sep=',')
+      xfraudsB <- read.table( paste("", flnm, sep="") , sep=',')
       
       n0 <- 1
       for (nbatch in seq(0, maxBatch - batch, batch)) {
@@ -72,7 +72,7 @@ if (BRCDE == 1) {
   IDICT <- 4
   flnm <- dict[IDICT]
   print(flnm)
-  xfraudsA <- read.table( paste("/home/jeremy/Documents/SnT/aa_code/app_topwgan/", flnm, sep="") , sep=',')
+  xfraudsA <- read.table( paste("", flnm, sep="") , sep=',')
   lastcolumn <- dim(xfraudsA)[2]# - 1
   
   dfA <- xfraudsA[sample(nrow(xfraudsA)),]
